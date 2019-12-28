@@ -1,0 +1,5 @@
+{
+    "mongoURI":
+    "mongodb+srv://Gowri:1c1c1c1c@testcluster0-ctvek.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "jwtSecret"
+}

@@ -78,9 +78,11 @@ export default class ForgotPassword extends Component {
               <FormGroup>
                 <Label>Phone Number</Label>
                 <Input
-                  type="number"
+                  type="text"
                   name="Phone"
                   id="Phone"
+                  pattern="[0-9]*"
+                  maxLength="10"
                   onChange={this.phoneChange}
                 />
               </FormGroup>
